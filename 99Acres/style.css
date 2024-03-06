@@ -4,8 +4,15 @@
     padding: 0;
 }
 
+/* rgb(146, 145, 145); Pick This grey color */
+
 body::-webkit-scrollbar{   /*To hide scrollbar from right */
     display: none;
+}
+
+
+img{
+    cursor: pointer;  /* Will make the curson pointer type(hand vala) of every image*/
 }
 
 /* Navigation */
@@ -41,65 +48,65 @@ body::-webkit-scrollbar{   /*To hide scrollbar from right */
 /* commercial buying */
 
 
-#div_article{
+#article_div1{
     display: flex;
-    /* align-items:center; */
     justify-content:space-between ;
-    margin-top: 50px;
-    margin-left: 30px;
+    margin: 20px;
+   
 }
 #article_head{
     color: rgba(13, 105, 210, 0.765);
 }
 #article_div2{
     display: flex;
-    gap: 50px;
-    margin-left: 40px;
-    margin-top: 30px;
+    gap: 15px;
+    margin: 20px;
 }
 .div2-head {
     color: grey;
+    
 }
 
 .div2-head:hover {
     color: black;
 }
-#article-div3{
-    margin-left: 40px;
-    margin-top: 20px;
-    gap: 100px;
 
+#mainarticle_images{
+    display: flex;
+    margin: 20px;
+    gap: 20px;
 }
+.article-div3{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
 .article_image{
-    height: 200px;
-    width: 250px;
+    height: 160px;
+    width: 300px;
     overflow: hidden;
     transition: transform 0.2s ease-in-out;
-    border-radius: 10%;
-    margin-right: 20px;
-    
+    border-radius: 3%;
 }
 .article_image:hover{
     transform: scale(1.1);
+}
 
-}
-.tax_chd{
-    display: flex;
-    gap: 80px;
-    margin-left: 80px;
-   
-}
 .tax_subtitle{
-    font-family:'Times New Roman', Times, serif;
+
+    font-weight: 550;
 
 }
 
-
+.tax_para{
+    font-size: 13px;
+    color: rgb(146, 145, 145);;
+}
 
 
 #main_register{
     padding: 3rem;
-    
     line-height: 50px;
 }
 
@@ -168,7 +175,7 @@ body::-webkit-scrollbar{   /*To hide scrollbar from right */
     margin-left: 70px;
 }
 #exclusive_head5{
-    color: grey;
+    color: rgb(146, 145, 145);
 }
 #image_exclusive{
     height: 200px;
@@ -185,35 +192,50 @@ body::-webkit-scrollbar{   /*To hide scrollbar from right */
     display: flex;
     flex-direction: column;
     align-items: center;
+    gap: 10px;
     margin-top: 70px;
+    margin-bottom: 60px;
 }
-#second_head{
-    color: grey;
+#second_div_head1{
+    color: rgb(146, 145, 145);
 }
-#second_head2{
+#second_div_head2{
     font-size: 35px;
 }
-.main_heading{
+
+#main_heading_icon{
+    font-size: 30px;
+    color: rgb(65, 65, 255);
+    margin-bottom: 25px;
+}
+
+.main_heading_para{
+    font-size: medium;
+    color: rgb(146, 145, 145);
+}
+
+.main_second_Items{
     display: flex;
+    justify-content: space-around;
+}
+
+.main_heading_{
+    display: flex;
+    flex-direction: column;
     justify-content:space-around;
-    margin-top: 200px;
-
-  
-    
+    gap: 10px;
 }
-.main_heading3{
-    display: flex;
-    justify-content:center;
-    gap: 110px;
-   
 
-}
-.main_heading4{
+
+
+.main_heading_2_1{
     color: grey;
 }
 .para1{
     color: grey;
 }
+
+
 
 
                     /* Main end ki bari */
@@ -248,10 +270,11 @@ body::-webkit-scrollbar{   /*To hide scrollbar from right */
     border-radius: 10%;
     overflow: hidden;
     transition: transform 0.2s ease-in-out;
+    
 }
 
 .city-image:hover{
-    transform: scale(1.1);
+    transform: scale(1.1);   
 }
                     
 .city-info {
@@ -319,7 +342,7 @@ body::-webkit-scrollbar{   /*To hide scrollbar from right */
     margin-top: 20px;
 }
 
-.Download_99acres{
+.Download_ShelterSeek{
     height:50px;
 }
 
