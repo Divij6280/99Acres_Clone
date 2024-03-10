@@ -4,9 +4,11 @@
     padding: 0;
 }
 
+
 /* rgb(146, 145, 145); Pick This grey color */
 
-body::-webkit-scrollbar{   /*To hide scrollbar from right */
+
+body::-webkit-scrollbar{   /* To hide scrollbar from right. Did it from chat gpt */
     display: none;
 }
 
@@ -23,7 +25,7 @@ img{
 }
 #Navigation_div1 img{
     width:100.1%;
-    height: 21rem;
+    height: 17.9rem;
     overflow: hidden;
     transition: transform 0.4s ease-in-out;
 }
@@ -94,11 +96,12 @@ img{
 
 #searchbar{
     background-color: white;
-    height: 130px;
-    width: 800px;
+    height: 23%;
+    width: 62%;
     position:absolute;
-    top: 275px;
-    left: 250px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); /* Will center a div */
     border: none;
     border-radius: 20px;
     box-shadow: 0px 0px 15px  rgb(52, 51, 51);
@@ -130,7 +133,7 @@ img{
 }
 #searchingicon{
     position: absolute;
-    left: 100px; /* Adjust icon position */
+    left: 12%; /* Adjust icon position */
     transform: translateY(-50%);
 }
 
