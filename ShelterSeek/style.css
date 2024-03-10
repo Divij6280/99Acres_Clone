@@ -17,27 +17,33 @@ img{
     cursor: pointer;  /* Will make the curson pointer type(hand vala) of every image*/
 }
 
+body{
+    overflow-x:hidden;
+}
+
 /* Navigation */
 
 #Navigation_div1{
     padding-bottom: 50px;
     background-color: rgb(255, 245, 245);
 }
+
+#backimage{
+    width: 100.1%;
+}
+
 #Navigation_div1 img{
-    width:100.1%;
-    height: 17.9rem;
     overflow: hidden;
     transition: transform 0.4s ease-in-out;
 }
-
 #Navigation_div1 img:hover{
     transform: scale(1.1); 
 }
 
 #Navigation_div2{
     display: flex;
-    justify-content: center;
-    gap: 100px;
+    justify-content: space-evenly;
+    gap: 80px;
     position:absolute ;
     top: 3px;
     left: 0;
@@ -61,7 +67,7 @@ img{
 
 .navbar_div2 a{
     text-decoration: none;
-    color: rgb(255, 235, 235);
+    color: rgb(247, 240, 240);
 }
 
 .navbar_div2 a:hover{
@@ -79,6 +85,7 @@ img{
     width: 120px;
     border: none;
     border-radius: 6px;
+    background-color: rgb(247, 240, 240);
 }
 
 .postproperty_button:hover{
@@ -87,7 +94,7 @@ img{
 }
 
 #navicon{
-    color: rgb(255, 235, 235);
+    color: rgb(247, 240, 240);
     font-size: 23px;
 }
 #navicon:hover{
@@ -520,6 +527,11 @@ img{
     text-decoration: none;
     color: white;
 }
+
+.anchor:hover{
+    color: blue;
+}
+
 .listnone{
     color: white;
     list-style: none;
@@ -537,6 +549,9 @@ img{
 
 .icons{
     font-size: 22px;
+}
+.icons:hover{
+    color: blue;
 }
 
 .DownloadApps{
