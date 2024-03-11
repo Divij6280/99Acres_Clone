@@ -30,6 +30,8 @@ body{
 
 #backimage{
     width: 100.1%;
+    height: 350px;
+
 }
 
 #Navigation_div1 img{
@@ -101,12 +103,54 @@ body{
     color: rgb(92, 83, 226);
 }
 
+
+ /* START OF AT HOVER ON FOR BUYERS  */
+
+
+/* .for_buyers_hover{
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    padding:2%;
+    width: 80%;
+    height: 300px;
+    border-radius: 20px;
+    position: absolute;
+    top: 10%;
+    left: 3%;
+    z-index: 999;
+}
+
+.for_buyers:hover .for_buyers_hover{
+    display: block;
+}
+
+.buyers_1{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+
+.buyers_1_heading{
+    color: rgb(130, 127, 127);
+    font-size:14px;
+}
+#insight_image{
+    height: 170px;
+    width: 170px;
+    border-radius: 30px;
+} */
+
+
+
+  /* END OF AT HOVER ON FOR BUYERS  */
+
 #searchbar{
     background-color: white;
     position:absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%); /* Will center a div */
+    top: 49.5%;
+    left: 18%;
     border: none;
     border-radius: 20px;
     box-shadow: 0px 0px 15px  rgb(52, 51, 51);
