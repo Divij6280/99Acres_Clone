@@ -1,5 +1,5 @@
 *{
-    font-family:cursive;
+    font-family:Georgia, 'Times New Roman', Times, serif;
     margin: 0;
     padding: 0;
 }
@@ -14,14 +14,16 @@ body::-webkit-scrollbar{   /* To hide scrollbar from right. Did it from chat gpt
 
 
 img{
-    cursor: pointer;  /* Will make the curson pointer type(hand vala) of every image*/
+    cursor: pointer;   /* Will make the curson pointer type(hand vala) of every image*/
 }
+
 
 body{
     overflow-x:hidden;
 }
 
 /* Navigation */
+
 
 #Navigation_div1{
     padding-bottom: 50px;
@@ -30,7 +32,7 @@ body{
 
 #backimage{
     width: 100.1%;
-    height: 350px;
+    /* height: 350px; */
 
 }
 
@@ -107,22 +109,27 @@ body{
  /* START OF AT HOVER ON FOR BUYERS  */
 
 
-/* .for_buyers_hover{
-    display: flex;
+.for_buyers_hover{
+    display: none;   /* Initially hide the content */
     justify-content: space-between;
-    background-color: white;
+    background-color:rgb(249, 245, 245);
     padding:2%;
     width: 80%;
     height: 300px;
-    border-radius: 20px;
+    border-radius: 10px;
     position: absolute;
-    top: 10%;
+    top: 8%;
     left: 3%;
-    z-index: 999;
+    z-index: 1;
+    transition: 0.5s ease-in-out; /* Transition for opacity */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3); /* Box shadow */
 }
 
-.for_buyers:hover .for_buyers_hover{
-    display: block;
+
+.for_buyers:hover + .for_buyers_hover, .for_buyers_hover:hover {
+    display: flex; /* Display when hovering over .for_buyers or .for_buyers_hover */
+    /* opacity: 1; */
+    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.5); /* Adjusted box shadow on hover */
 }
 
 .buyers_1{
@@ -140,17 +147,20 @@ body{
     height: 170px;
     width: 170px;
     border-radius: 30px;
-} */
+}
 
 
 
   /* END OF AT HOVER ON FOR BUYERS  */
 
+
+
 #searchbar{
     background-color: white;
     position:absolute;
-    top: 49.5%;
-    left: 18%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-54.5%);
     border: none;
     border-radius: 20px;
     box-shadow: 0px 0px 15px  rgb(52, 51, 51);
@@ -174,17 +184,29 @@ body{
     color: black;
 }
 #searching{
-    border: solid 1px black;
+    border: solid 1px white;
     border-radius: 10px;
     height: 35px;
-    width: 450px;
+    width: 350px;
     text-align:center;
 }
+
 #searchingicon{
     position: absolute;
-    left: 12%; /* Adjust icon position */
+    left: 26%; /* Adjust icon position */
     transform: translateY(-50%); 
 }
+
+#searchbar_2_div_change{
+    color:rgb(116, 107, 107);
+}
+
+.vertical-hr {
+    height: 61px; /* Set the desired height of the vertical line */
+    width: 1px; /* Set the width of the vertical line */
+    background-color: rgb(116, 107, 107); /* Set the color of the vertical line */
+    
+}  
 
 .searchbar_2{
     height: 60px;
