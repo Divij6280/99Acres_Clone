@@ -1,4 +1,3 @@
-
 //  +++++++++++++++++++++++++  ALERT MESSAGE ON CLICKING LOCATION AND MIC ICONS   +++++++++++++++++++++++++++
 
 // Getting icons
@@ -54,29 +53,78 @@ const projects = document.querySelector('#projects_searchbar_1');
 //Event listeners
 
 buy.addEventListener('click' , () => {
-    h5.innerHTML = "Buy Now"
+    h5.innerHTML = "Buy Now";
+    buy.style.color = "black";
+    rent.style.color = "rgb(116, 107, 107)";
+    new_launch.style.color = "rgb(116, 107, 107)";
+    pg.style.color = "rgb(116, 107, 107)";
+    commercial.style.color = "rgb(116, 107, 107)";
+    plots.style.color = "rgb(116, 107, 107)";
+    projects.style.color = "rgb(116, 107, 107)";
 });
 
 rent.addEventListener('click' , () => {
-  h5.innerHTML = "Rent now"
+  h5.innerHTML = "Rent now";
+  buy.style.color =  "rgb(116, 107, 107)";
+  rent.style.color = "black";
+  new_launch.style.color = "rgb(116, 107, 107)";
+  pg.style.color = "rgb(116, 107, 107)";
+  commercial.style.color = "rgb(116, 107, 107)";
+  plots.style.color = "rgb(116, 107, 107)";
+  projects.style.color = "rgb(116, 107, 107)";
 });
 
 new_launch.addEventListener('click' , () => {
-  h5.innerHTML = "Newly Launched"
+  h5.innerHTML = "Newly Launched";
+  buy.style.color =  "rgb(116, 107, 107)";
+  rent.style.color = "rgb(116, 107, 107)";
+  new_launch.style.color = "black";
+  pg.style.color = "rgb(116, 107, 107)";
+  commercial.style.color = "rgb(116, 107, 107)";
+  plots.style.color = "rgb(116, 107, 107)";
+  projects.style.color = "rgb(116, 107, 107)";
 });
 
 pg.addEventListener('click' , () => {
-  h5.innerHTML = "PG/Co-living"
+  h5.innerHTML = "PG/Co-living";
+  buy.style.color =  "rgb(116, 107, 107)";
+  rent.style.color = "rgb(116, 107, 107)";
+  new_launch.style.color = "rgb(116, 107, 107)";
+  pg.style.color ="black";
+  commercial.style.color = "rgb(116, 107, 107)";
+  plots.style.color = "rgb(116, 107, 107)";
+  projects.style.color = "rgb(116, 107, 107)";
 });
 
 commercial.addEventListener('click' , () => {
-  h5.innerHTML = "All Residentials"
+  h5.innerHTML = "All Residentials";
+  buy.style.color =  "rgb(116, 107, 107)";
+  rent.style.color = "rgb(116, 107, 107)";
+  new_launch.style.color = "rgb(116, 107, 107)";
+  pg.style.color = "rgb(116, 107, 107)";
+  commercial.style.color = "black";
+  plots.style.color = "rgb(116, 107, 107)";
+  projects.style.color = "rgb(116, 107, 107)";
 });
 
 plots.addEventListener('click' , () => {
-  h5.innerHTML = "Find Plots/Lands"
+  h5.innerHTML = "Find Plots/Lands";
+  buy.style.color =  "rgb(116, 107, 107)";
+  rent.style.color = "rgb(116, 107, 107)";
+  new_launch.style.color = "rgb(116, 107, 107)";
+  pg.style.color = "rgb(116, 107, 107)";
+  commercial.style.color = "rgb(116, 107, 107)";
+  plots.style.color ="black";
+  projects.style.color = "rgb(116, 107, 107)";
 });
 
 projects.addEventListener('click' , () => {
-  h5.innerHTML = "Residential Project"
+  h5.innerHTML = "Residential Project";
+  buy.style.color =  "rgb(116, 107, 107)";
+  rent.style.color = "rgb(116, 107, 107)";
+  new_launch.style.color = "rgb(116, 107, 107)";
+  pg.style.color = "rgb(116, 107, 107)";
+  commercial.style.color = "rgb(116, 107, 107)";
+  plots.style.color = "rgb(116, 107, 107)";
+  projects.style.color = "black";
 });
